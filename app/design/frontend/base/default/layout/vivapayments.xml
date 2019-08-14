@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <vivapayments_checkout_failure>
+        <reference name="root">
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="vivapayments/checkout_failure" name="vivapayments_checkout_failure" template="vivapayments/checkout/failure.phtml"></block>
+        </reference>
+    </vivapayments_checkout_failure>
+    
+    <vivapayments_checkout_response>
+        <!--<reference name="root">
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+        </reference>-->
+        <reference name="content">
+            <block type="vivapayments/checkout_response" name="vivapayments_checkout_response" template="vivapayments/checkout/response.phtml"></block>
+        </reference>
+    </vivapayments_checkout_response>
+</layout>

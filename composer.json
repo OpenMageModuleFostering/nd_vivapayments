@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ND_Vivapayments",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "A payment gateway integration of Viva Payments.",
+    "authors": [
+    {
+        "name": "Nikul Doshi",
+        "email": "nikulonline@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

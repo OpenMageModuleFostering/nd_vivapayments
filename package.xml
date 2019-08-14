@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>ND_Vivapayments</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A payment gateway integration of Viva Payments.</summary>
+    <description>This extension integrates payment method of Viva Payment (Greece).&#xD;
+&#xD;
+It uses redirect method for customer to make payment through www.vivapayments.com. It accepts all major credit cards.&#xD;
+&#xD;
+-	American Express&#xD;
+-	Visa, Visa Electron&#xD;
+-	MasterCard&#xD;
+-	Maestro&#xD;
+-	Diners</description>
+    <notes>First Stable Release Version 0.1.1</notes>
+    <authors><author><name>Nikul Doshi</name><user>nikulonline</user><email>nikulonline@gmail.com</email></author></authors>
+    <date>2014-10-28</date>
+    <time>14:23:55</time>
+    <contents><target name="magelocal"><dir name="ND"><dir name="Vivapayments"><dir name="Block"><dir name="Checkout"><file name="Failure.php" hash="b94ea5e569879ac7abf65a80612e3320"/><file name="Form.php" hash="e95040814c487d51ae5a0fbf985f7d9b"/><file name="Redirect.php" hash="5980080a2956f8be961a1064acd05d24"/><file name="Response.php" hash="dc5aeb36aa923efe4c235a3b885e5995"/></dir><file name="Form.php" hash="cfbd3859184f424858e7b08183d555b0"/><file name="Info.php" hash="280b8ee1a193b010154493587c417af0"/><dir name="Payment"><file name="Info.php" hash="53746cf30d6dc0c1b9acdb10b9684994"/></dir></dir><dir name="Controller"><file name="Abstract.php" hash="55233b4a19b41e5fd551af3957da7d1f"/></dir><dir name="Helper"><file name="Data.php" hash="90c8524ba0571360b9add0bb6454f731"/></dir><dir name="Model"><file name="Checkout.php" hash="0fa2d65868503d6e4980815001abccb8"/><file name="Info.php" hash="90b2f91cb71e773596eb5226564138f8"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Transaction.php" hash="1c8f3c15744e67b527a846f70d407d46"/></dir></dir></dir></dir><dir name="controllers"><file name="CheckoutController.php" hash="05e4a3e45b6eeb5a3bc55965be12b8c7"/></dir><dir name="etc"><file name="config.xml" hash="eacaa3a52c695be8de7c984c9501999f"/><file name="system.xml" hash="f47d2b49a215e906d65c089b55d91e3e"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="vivapayments.xml" hash="0e80a8dd9a78be7094e2d403c3108c98"/></dir><dir name="template"><dir name="vivapayments"><dir name="checkout"><file name="form.phtml" hash="0f1edde7b3758c0f8c55675fcccebf80"/><file name="response.phtml" hash="8a3f5b9be4901568104472399b1b1398"/></dir><file name="form.phtml" hash="57b33e4bff7698884c893e9b7fc420f9"/><file name="info.phtml" hash="c13fe64ae97929b3b732d25b695527ea"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ND_Vivapayments.xml" hash="634f25d66576733dc3d2209bfa8e5be6"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,19 @@
+<fieldset class="form-list">
+    <?php $_code=$this->getMethodCode() ?>
+    <ul id="payment_form_<?php echo $_code ?>" style="display:none">        
+        <li>
+            <div class="generic-select-input input-box">
+				<p class="columnSelectedDeposit"><?php echo $this->__('--Language--');?></p>
+                <label for="<?php echo $_code ?>_lang"><?php echo $this->__('Select Language') ?></label><br />
+                <select id="<?php echo $_code ?>_lang" name="payment[lang]">
+                    <option value="">--<?php echo $this->__('Please Select') ?>--</option>
+                    <option value="el-GR"><?php echo $this->__('Greek');?></option>
+                    <option value="en-US"><?php echo $this->__('English');?></option>
+                </select>
+            </div>
+        </li>
+        <li>
+            <?php echo $this->__('You will be redirected to Viva Payments website when you place an order.') ?>
+        </li>
+    </ul>
+</fieldset>
